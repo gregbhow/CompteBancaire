@@ -1,8 +1,6 @@
-/* Programme Add
- * date : 20/5/2020
- * auteur : grego
- * 
- * Le programme Add permet de gestionner differants comptes 
+/**
+ * Programme permettant d'ajouter un nouveau compte chez moKass Bank
+ * @author gregb
  * 
  */
 
@@ -225,6 +223,11 @@ public class Add {
 		btnCancel.setBounds(175, 465, 78, 25);
 		frame.getContentPane().add(btnCancel);
 
+		/** 
+		 * button ajouter un compte
+		 * Il permet de rajouter un 
+		 *
+		 */
 		btnAdd = new JButton("Ajouter");
 		btnAdd.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

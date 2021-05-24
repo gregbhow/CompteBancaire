@@ -27,7 +27,7 @@ import javax.swing.JComboBox;
 ////////////classe creer
 public class Add {
 
-	//////////////// declaration des variable
+	//////////////// declaration des variables
 	private JFrame frame;
 	private JMenuBar menuBar;
 	private JMenu menuFile;

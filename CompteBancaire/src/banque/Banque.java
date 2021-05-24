@@ -125,7 +125,7 @@ public class Banque {
 		btnAjouter.setBounds(102, 156, 226, 26);
 		panel.add(btnAjouter);
 		/*
-		 * Redirection sur la page affichage des comptes en banque
+		 * Redirection sur la page affichage des comptes en banque.
 		 */
 		btnAfficher = new JButton("Afficher l'ensemble des comptes");
 		btnAfficher.addActionListener(new ActionListener() {
